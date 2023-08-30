@@ -1,0 +1,20 @@
+// Install Material UI
+npm install @mui/material @emotion/react @emotion/styled
+
+// Font - add to public/index.html
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+/>
+
+// Install Icons
+npm install @mui/icons-material
+
+// Install Router
+npm install react-router-dom
+
+// Install Lottie React
+npm i lottie-react
+
