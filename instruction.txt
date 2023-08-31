@@ -17,4 +17,3 @@ npm install react-router-dom
 
 // Install Lottie React
 npm i lottie-react
-
