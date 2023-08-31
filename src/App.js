@@ -7,7 +7,7 @@ import RegisterNetBanking from "./pages/RegisterNetBanking.page";
 import ForgotPasswordPage from "./pages/ForgotPassword.page";
 import SessionExpiredPage from "./pages/SessionExpired.page";
 import ErrorPage from "./pages/Error.page";
-import SharedNavBarComponent from "./components/layouts/SharedNavBar.component";
+import SharedLayoutComponent from "./components/layouts/SharedLayout.component";
 import AccountDetailsPage from "./pages/AccountDetails.page";
 import AccountStatementPage from "./pages/AccountStatement.page";
 import FundTransferPage from "./pages/FundTransfer.page";
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/registerNetBanking" element={<RegisterNetBanking />} />
         <Route path="/forgotPassword" element={<ForgotPasswordPage />} />
         <Route path="/expired" element={<SessionExpiredPage />} />
-        <Route path="/" element={<SharedNavBarComponent />}>
+        <Route path="/" element={<SharedLayoutComponent />}>
           <Route index element={<HomePage />} />
           <Route path="accountDetails" element={<AccountDetailsPage />} />
           <Route path="accountStatement" element={<AccountStatementPage />} />
